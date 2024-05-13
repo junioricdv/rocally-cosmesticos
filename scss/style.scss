@@ -1,4 +1,4 @@
-/******* Bootstrap Theming ********/
+/******* Bootstrap Theming row px-xl-5 ********/
 
 $primary: #d19c97;
 $secondary: #edf1ff;
@@ -173,6 +173,10 @@ $input-placeholder-color: #999999;
   animation: action 1s infinite alternate;
 }
 
+.direitos {
+  margin: 10px;
+}
+
 @-webkit-keyframes action {
   0% {
     transform: translateY(0);
@@ -191,4 +195,12 @@ $input-placeholder-color: #999999;
   100% {
     transform: translateY(-15px);
   }
+}
+
+.footer {
+  align-items: center;
+}
+
+.banner-rc {
+  align-items: center;
 }
